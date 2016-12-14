@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E619B6901E021034008C3330 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E619B68F1E021034008C3330 /* AppDelegate.swift */; };
+		E619B6921E021034008C3330 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E619B6911E021034008C3330 /* ViewController.swift */; };
+		E619B6951E021034008C3330 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E619B6931E021034008C3330 /* Main.storyboard */; };
+		E619B6971E021034008C3330 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E619B6961E021034008C3330 /* Assets.xcassets */; };
+		E619B69A1E021034008C3330 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E619B6981E021034008C3330 /* LaunchScreen.storyboard */; };
+		E619B6A51E021034008C3330 /* Baby_Kick_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E619B6A41E021034008C3330 /* Baby_Kick_TrackerTests.swift */; };
+		E619B6B01E021034008C3330 /* Baby_Kick_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E619B6AF1E021034008C3330 /* Baby_Kick_TrackerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E619B6A11E021034008C3330 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E619B6841E021034008C3330 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E619B68B1E021034008C3330;
+			remoteInfo = "Baby Kick Tracker";
+		};
+		E619B6AC1E021034008C3330 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E619B6841E021034008C3330 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E619B68B1E021034008C3330;
+			remoteInfo = "Baby Kick Tracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E619B68C1E021034008C3330 /* Baby Kick Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Baby Kick Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E619B68F1E021034008C3330 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E619B6911E021034008C3330 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E619B6941E021034008C3330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E619B6961E021034008C3330 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E619B6991E021034008C3330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E619B69B1E021034008C3330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E619B6A01E021034008C3330 /* Baby Kick TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Baby Kick TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E619B6A41E021034008C3330 /* Baby_Kick_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baby_Kick_TrackerTests.swift; sourceTree = "<group>"; };
+		E619B6A61E021034008C3330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E619B6AB1E021034008C3330 /* Baby Kick TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Baby Kick TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E619B6AF1E021034008C3330 /* Baby_Kick_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baby_Kick_TrackerUITests.swift; sourceTree = "<group>"; };
+		E619B6B11E021034008C3330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E619B6891E021034008C3330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E619B69D1E021034008C3330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E619B6A81E021034008C3330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E619B6831E021034008C3330 = {
+			isa = PBXGroup;
+			children = (
+				E619B68E1E021034008C3330 /* Baby Kick Tracker */,
+				E619B6A31E021034008C3330 /* Baby Kick TrackerTests */,
+				E619B6AE1E021034008C3330 /* Baby Kick TrackerUITests */,
+				E619B68D1E021034008C3330 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E619B68D1E021034008C3330 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E619B68C1E021034008C3330 /* Baby Kick Tracker.app */,
+				E619B6A01E021034008C3330 /* Baby Kick TrackerTests.xctest */,
+				E619B6AB1E021034008C3330 /* Baby Kick TrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E619B68E1E021034008C3330 /* Baby Kick Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				E619B68F1E021034008C3330 /* AppDelegate.swift */,
+				E619B6911E021034008C3330 /* ViewController.swift */,
+				E619B6931E021034008C3330 /* Main.storyboard */,
+				E619B6961E021034008C3330 /* Assets.xcassets */,
+				E619B6981E021034008C3330 /* LaunchScreen.storyboard */,
+				E619B69B1E021034008C3330 /* Info.plist */,
+			);
+			path = "Baby Kick Tracker";
+			sourceTree = "<group>";
+		};
+		E619B6A31E021034008C3330 /* Baby Kick TrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E619B6A41E021034008C3330 /* Baby_Kick_TrackerTests.swift */,
+				E619B6A61E021034008C3330 /* Info.plist */,
+			);
+			path = "Baby Kick TrackerTests";
+			sourceTree = "<group>";
+		};
+		E619B6AE1E021034008C3330 /* Baby Kick TrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E619B6AF1E021034008C3330 /* Baby_Kick_TrackerUITests.swift */,
+				E619B6B11E021034008C3330 /* Info.plist */,
+			);
+			path = "Baby Kick TrackerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E619B68B1E021034008C3330 /* Baby Kick Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E619B6B41E021034008C3330 /* Build configuration list for PBXNativeTarget "Baby Kick Tracker" */;
+			buildPhases = (
+				E619B6881E021034008C3330 /* Sources */,
+				E619B6891E021034008C3330 /* Frameworks */,
+				E619B68A1E021034008C3330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Baby Kick Tracker";
+			productName = "Baby Kick Tracker";
+			productReference = E619B68C1E021034008C3330 /* Baby Kick Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E619B69F1E021034008C3330 /* Baby Kick TrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E619B6B71E021034008C3330 /* Build configuration list for PBXNativeTarget "Baby Kick TrackerTests" */;
+			buildPhases = (
+				E619B69C1E021034008C3330 /* Sources */,
+				E619B69D1E021034008C3330 /* Frameworks */,
+				E619B69E1E021034008C3330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E619B6A21E021034008C3330 /* PBXTargetDependency */,
+			);
+			name = "Baby Kick TrackerTests";
+			productName = "Baby Kick TrackerTests";
+			productReference = E619B6A01E021034008C3330 /* Baby Kick TrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E619B6AA1E021034008C3330 /* Baby Kick TrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E619B6BA1E021034008C3330 /* Build configuration list for PBXNativeTarget "Baby Kick TrackerUITests" */;
+			buildPhases = (
+				E619B6A71E021034008C3330 /* Sources */,
+				E619B6A81E021034008C3330 /* Frameworks */,
+				E619B6A91E021034008C3330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E619B6AD1E021034008C3330 /* PBXTargetDependency */,
+			);
+			name = "Baby Kick TrackerUITests";
+			productName = "Baby Kick TrackerUITests";
+			productReference = E619B6AB1E021034008C3330 /* Baby Kick TrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E619B6841E021034008C3330 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Patrick Lockett";
+				TargetAttributes = {
+					E619B68B1E021034008C3330 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 3539586UME;
+						ProvisioningStyle = Automatic;
+					};
+					E619B69F1E021034008C3330 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 3539586UME;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E619B68B1E021034008C3330;
+					};
+					E619B6AA1E021034008C3330 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 3539586UME;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E619B68B1E021034008C3330;
+					};
+				};
+			};
+			buildConfigurationList = E619B6871E021034008C3330 /* Build configuration list for PBXProject "Baby Kick Tracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E619B6831E021034008C3330;
+			productRefGroup = E619B68D1E021034008C3330 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E619B68B1E021034008C3330 /* Baby Kick Tracker */,
+				E619B69F1E021034008C3330 /* Baby Kick TrackerTests */,
+				E619B6AA1E021034008C3330 /* Baby Kick TrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E619B68A1E021034008C3330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E619B69A1E021034008C3330 /* LaunchScreen.storyboard in Resources */,
+				E619B6971E021034008C3330 /* Assets.xcassets in Resources */,
+				E619B6951E021034008C3330 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E619B69E1E021034008C3330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E619B6A91E021034008C3330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E619B6881E021034008C3330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E619B6921E021034008C3330 /* ViewController.swift in Sources */,
+				E619B6901E021034008C3330 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E619B69C1E021034008C3330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E619B6A51E021034008C3330 /* Baby_Kick_TrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E619B6A71E021034008C3330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E619B6B01E021034008C3330 /* Baby_Kick_TrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E619B6A21E021034008C3330 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E619B68B1E021034008C3330 /* Baby Kick Tracker */;
+			targetProxy = E619B6A11E021034008C3330 /* PBXContainerItemProxy */;
+		};
+		E619B6AD1E021034008C3330 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E619B68B1E021034008C3330 /* Baby Kick Tracker */;
+			targetProxy = E619B6AC1E021034008C3330 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E619B6931E021034008C3330 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E619B6941E021034008C3330 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E619B6981E021034008C3330 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E619B6991E021034008C3330 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E619B6B21E021034008C3330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E619B6B31E021034008C3330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E619B6B51E021034008C3330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3539586UME;
+				INFOPLIST_FILE = "Baby Kick Tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "patricklockett.Baby-Kick-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E619B6B61E021034008C3330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3539586UME;
+				INFOPLIST_FILE = "Baby Kick Tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "patricklockett.Baby-Kick-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E619B6B81E021034008C3330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3539586UME;
+				INFOPLIST_FILE = "Baby Kick TrackerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "patricklockett.Baby-Kick-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Baby Kick Tracker.app/Baby Kick Tracker";
+			};
+			name = Debug;
+		};
+		E619B6B91E021034008C3330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3539586UME;
+				INFOPLIST_FILE = "Baby Kick TrackerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "patricklockett.Baby-Kick-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Baby Kick Tracker.app/Baby Kick Tracker";
+			};
+			name = Release;
+		};
+		E619B6BB1E021034008C3330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3539586UME;
+				INFOPLIST_FILE = "Baby Kick TrackerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "patricklockett.Baby-Kick-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Baby Kick Tracker";
+			};
+			name = Debug;
+		};
+		E619B6BC1E021034008C3330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3539586UME;
+				INFOPLIST_FILE = "Baby Kick TrackerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "patricklockett.Baby-Kick-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Baby Kick Tracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E619B6871E021034008C3330 /* Build configuration list for PBXProject "Baby Kick Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E619B6B21E021034008C3330 /* Debug */,
+				E619B6B31E021034008C3330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E619B6B41E021034008C3330 /* Build configuration list for PBXNativeTarget "Baby Kick Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E619B6B51E021034008C3330 /* Debug */,
+				E619B6B61E021034008C3330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E619B6B71E021034008C3330 /* Build configuration list for PBXNativeTarget "Baby Kick TrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E619B6B81E021034008C3330 /* Debug */,
+				E619B6B91E021034008C3330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E619B6BA1E021034008C3330 /* Build configuration list for PBXNativeTarget "Baby Kick TrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E619B6BB1E021034008C3330 /* Debug */,
+				E619B6BC1E021034008C3330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E619B6841E021034008C3330 /* Project object */;
+}
