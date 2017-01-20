@@ -1,14 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Baby_Kick_Tracker" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +21,114 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="proofs-154" translatesAutoresizingMaskIntoConstraints="NO" id="BY3-UD-Iyk">
+                                <rect key="frame" x="-44" y="-48" width="465" height="779"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="779" id="2gI-Y3-fiB"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="667" id="hk4-bN-Pfx"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Dk-fV-g7J" userLabel="lblTimer">
+                                <rect key="frame" x="121" y="54" width="133" height="69"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="69" id="Lqt-e0-WiF"/>
+                                    <constraint firstAttribute="width" constant="133" id="noP-gf-0Tj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bow-i7-OGT" userLabel="lblCounter">
+                                <rect key="frame" x="121" y="310" width="133" height="47"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2b9-su-RvV" userLabel="lblBibleVerse">
+                                <rect key="frame" x="16" y="475" width="343" height="172"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="172" id="SWv-Us-tKc"/>
+                                </constraints>
+                                <string key="text">“Do not be anxious about anything, but in everything, by prayer and petition, with thanksgiving, present your requests to God. And the peace of God, which transcends all understanding, will guard your hearts and minds in Christ Jesus.” Philippians 4:6-7</string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBlack" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8gi-SG-9vw" userLabel="btnStop">
+                                <rect key="frame" x="226" y="380" width="133" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="59" id="86o-vD-2wF"/>
+                                    <constraint firstAttribute="width" constant="133" id="wLf-Jk-sRd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" title="Stop" backgroundImage="GreyRoundedButton">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onStopButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="smH-pE-CwB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="22C-Av-HhD" userLabel="btnStart">
+                                <rect key="frame" x="16" y="381" width="133" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="133" id="cDX-jy-6Al"/>
+                                    <constraint firstAttribute="height" constant="59" id="vRz-Tm-gPr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" title="Start" backgroundImage="GreyRoundedButton">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onStartButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QuJ-c7-Fgb"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kick Counter" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KQB-dq-aj3">
+                                <rect key="frame" x="69" y="236" width="237" height="36"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="2b9-su-RvV" secondAttribute="bottom" constant="20" symbolic="YES" id="28g-vM-cFQ"/>
+                            <constraint firstItem="BY3-UD-Iyk" firstAttribute="centerX" secondItem="2b9-su-RvV" secondAttribute="centerX" constant="1" id="4H6-GC-WC1"/>
+                            <constraint firstItem="22C-Av-HhD" firstAttribute="baseline" secondItem="8gi-SG-9vw" secondAttribute="baseline" id="6q6-nc-hbA"/>
+                            <constraint firstItem="BY3-UD-Iyk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-44" id="96w-rJ-HsY"/>
+                            <constraint firstItem="8gi-SG-9vw" firstAttribute="top" secondItem="bow-i7-OGT" secondAttribute="bottom" constant="23" id="DjZ-mj-0PL"/>
+                            <constraint firstItem="8gi-SG-9vw" firstAttribute="top" secondItem="KQB-dq-aj3" secondAttribute="bottom" constant="108" id="Dnu-nZ-AYv"/>
+                            <constraint firstItem="KQB-dq-aj3" firstAttribute="centerX" secondItem="bow-i7-OGT" secondAttribute="centerX" id="JQW-lf-fIf"/>
+                            <constraint firstItem="KQB-dq-aj3" firstAttribute="top" secondItem="bow-i7-OGT" secondAttribute="bottom" constant="-121" id="LGy-qM-wxP"/>
+                            <constraint firstItem="BY3-UD-Iyk" firstAttribute="centerX" secondItem="6Dk-fV-g7J" secondAttribute="centerX" constant="1" id="Vir-CT-3rc"/>
+                            <constraint firstItem="6Dk-fV-g7J" firstAttribute="leading" secondItem="bow-i7-OGT" secondAttribute="leading" id="Vxc-Z0-D5c"/>
+                            <constraint firstItem="BY3-UD-Iyk" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" constant="64" id="Yj9-2V-wGf"/>
+                            <constraint firstItem="6Dk-fV-g7J" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="34" id="aAa-CK-WMv"/>
+                            <constraint firstItem="2b9-su-RvV" firstAttribute="trailing" secondItem="8gi-SG-9vw" secondAttribute="trailing" id="b9U-Ra-KtK"/>
+                            <constraint firstItem="bow-i7-OGT" firstAttribute="top" secondItem="6Dk-fV-g7J" secondAttribute="bottom" constant="187" id="cao-IY-lpR"/>
+                            <constraint firstAttribute="trailing" secondItem="BY3-UD-Iyk" secondAttribute="trailing" constant="-46" id="fh0-yC-Sxm"/>
+                            <constraint firstItem="8gi-SG-9vw" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="oSQ-g3-RiC"/>
+                            <constraint firstItem="22C-Av-HhD" firstAttribute="leading" secondItem="2b9-su-RvV" secondAttribute="leading" id="vuK-dj-2xM"/>
+                            <constraint firstItem="BY3-UD-Iyk" firstAttribute="centerX" secondItem="bow-i7-OGT" secondAttribute="centerX" constant="1" id="wln-xD-TrK"/>
+                            <constraint firstItem="KQB-dq-aj3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="53" id="yiK-dG-FGb"/>
+                            <constraint firstItem="2b9-su-RvV" firstAttribute="top" secondItem="22C-Av-HhD" secondAttribute="bottom" constant="35" id="zdP-TI-HXi"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="btnStartName" destination="22C-Av-HhD" id="ycU-M2-6Sa"/>
+                        <outlet property="btnStopName" destination="8gi-SG-9vw" id="PQf-Nr-Og1"/>
+                        <outlet property="lblBibleVerse" destination="2b9-su-RvV" id="5sP-Ye-1T8"/>
+                        <outlet property="lblCounter" destination="bow-i7-OGT" id="Pe9-f1-GWN"/>
+                        <outlet property="lblTimer" destination="6Dk-fV-g7J" id="lpb-1x-YSv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-303.19999999999999" y="5.8470764617691158"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="GreyRoundedButton" width="210" height="59"/>
+        <image name="proofs-154" width="1536" height="2304"/>
+    </resources>
 </document>
